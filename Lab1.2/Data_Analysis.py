@@ -8,6 +8,7 @@ sheet = wb['Data']
 def getvalue(x):
     return x.value
 
+
 colonka_a = sheet['A'][1:]
 colonka_c = sheet['C'][1:]
 colonka_d = sheet['D'][1:]
